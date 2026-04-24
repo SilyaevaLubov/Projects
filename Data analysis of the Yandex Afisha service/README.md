@@ -1,13 +1,21 @@
-# 🎟️ Yandex Afisha: Demand Analysis Project
+# 🎟️ Yandex Afisha: Ticket Demand Analysis
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-[![Data Analysis](https://img.shields.io/badge/Category-Data_Analysis-blue)]()
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python)]()
+[![Pandas](https://img.shields.io/badge/Pandas-%20-150458?logo=pandas)]()
 
 ## 🔎 About the Project
 
 **Yandex Afisha** is a service that helps users discover events in different cities and purchase tickets for them. The platform collaborates with partners — event organizers and ticketing operators — who provide event information and list tickets for sale.
 
 To plan promotions effectively, we need to **identify the reasons behind changes in ticket demand**. This project uses data from **June to November 2024** to conduct a comprehensive analysis.
+
+## 🛠️ Analysis Tools
+
+- 🐍 **Python** — main programming language
+- 🐼 **Pandas** — data manipulation and analysis
+- 📊 **Matplotlib** — data visualization
+- 🌠 **Seaborn** — advanced data visualization
+- 🧪 **SciPy** — statistical analysis
 
 ## 🎯 Goals and Objectives
 
@@ -72,22 +80,13 @@ Currency data for 2024, with values in rubles for 100 tenge.
 | `curs` | Tenge-to-Ruble exchange rate |
 | `cdx` | Currency code (`kzt`) |
 
----
+## 🔬 Key Work Stages
 
-## 🛠️ How to Use
-
-1. Clone the repository.
-2. Install required dependencies (see `requirements.txt`).
-3. Run the analysis notebooks in order:
-   - `1_data_exploration.ipynb`
-   - `2_data_preprocessing.ipynb`
-   - `3_eda_and_statistics.ipynb`
-   - `4_conclusions_and_recommendations.ipynb`
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you have suggestions for improving the analysis.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+1. 💾 **Data Loading & Initial Exploration:** Load datasets and get familiar with their structure and content.
+2. 🔎 **Data Quality Check & Preprocessing:** Identify and fix errors, clean the data, handle missing values and duplicates.
+3. 🕵️ **Exploratory Data Analysis:**
+   - 📊 Analyze order distribution across segments and seasonal changes.
+   - 🍂 Examine user activity during autumn months.
+   - 🌟 Identify popular events and key partners.
+4. 📊 **Statistical Analysis:** Apply appropriate statistical tests and models to validate hypotheses.
+5. 💡 **Conclusions & Recommendations:** Summarize findings and provide actionable business recommendations.
